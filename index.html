@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Itens Mercado</h1>
+        <table class="tabela">
+            <thead> <!--Cabeçalho-->
+                <tr> <!--Linha-->
+                    <th>Id Produto</th>
+                    <th>Nome</th>
+                    <th>Marca</th>
+                    <th>Preço(Kg)</th>
+                    <th>Validade</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-body">
+                <!--
+                <tr> Primeira Linha
+                    <td>1</td>
+                    <td>Queijo Mussarela</td>
+                    <td>Tirolez</td>
+                    <td>54,90</td>
+                    <td>30/05/2026</td>
+                </tr>
+
+                 <tr> Segunda Linha
+                    <td>2</td>
+                    <td>Mortadela</td>
+                    <td>Marba</td>
+                    <td>24,60</td>
+                    <td>13/05/2026</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+        <button onclick="carregarDados()" class="btn-carregar"> Carregar do JavaScript</button>
+        <button onclick="carregarDadosLocalStorage()" class="btn-carregar"> Carregar LocalStorage</button>
+
+    </div>
+</body>
+</html>
